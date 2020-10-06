@@ -1,13 +1,13 @@
 .add-sticker-btn {
     padding: 10px;
-    background-color: lightblue;
+    background-color: rgb(51, 59, 65);
     font-weight: bold;
     cursor: pointer;
     margin-bottom: 20px;
     font-size: 18px;
     outline: 5px solid darkgrey;
     border: none;
-    color: black;
+    color: white;
 }
 
 .sticker-item {
@@ -17,9 +17,9 @@
 }
 
 .edit-sticker {
-    background-color: lightblue;
-    color: black;
-    font-weight: bolder;
+    background-color: rgb(51, 59, 65);
+    color: white;
+    /* font-weight: bolder; */
     font-size: 18px;
     width: 150px;
     height: 100px;
@@ -50,4 +50,8 @@ textarea {
     bottom: 90px;
     left: 1px;
     padding: 7px;
+}
+
+body {
+    background-color: rgb(76, 108, 112);
 }
