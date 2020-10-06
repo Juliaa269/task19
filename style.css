@@ -1,0 +1,31 @@
+.add-sticker-btn {
+    padding: 10px;
+    background-color: lightblue;
+    font-weight: bold;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 18px;
+    outline: 5px solid darkgrey;
+    border: none;
+    color: black;
+}
+
+.type-input {
+    background-color: lightblue;
+    color: black;
+    font-weight: bolder;
+    font-size: 18px;
+}
+
+textarea {
+    outline: 5px solid darkgrey;
+}
+
+.container {
+    margin: 50px;
+}
+
+.add-btn {
+    display: flex;
+    justify-content: center;
+}

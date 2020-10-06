@@ -3,9 +3,27 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <link rel="stylesheet" href="./style.css" />
+        <script src="./script.js" async></script>
         <title>Task19. Доска со стикерами</title>
     </head>
     <body>
+        <div class="container">
+            <div class="add-btn">
+                <input type="submit" class="add-sticker-btn" id="addStickerBtn" value="Добавить стикер">
+            </div>
+            <div class="formSticker">
+                <textarea id="stickerTextInput" class="type-input" placeholder="Введите текст."></textarea>
+            </div>
+        </div>
+
+        <script type="text/template" id="stickerItemTemplate">
+            <div class="sticker-item" data-sticker-id="{{id}}">
+                <textarea class="edit-sticker" name="sticker" id="">{{sticker}}</textarea>
+                <span class="edit-btn btn">&#9998;</span>
+                <span class="delete-btn btn">&#10008;</span>
+            </div>
+        </script>
         
     </body>
 </html>
